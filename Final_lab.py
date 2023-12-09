@@ -7,7 +7,7 @@ font = pygame.font.Font('freesansbold.ttf', 15)
 title = pygame.font.Font('freesansbold.ttf', 40)
 screen = pygame.display.set_mode([800,600], pygame.RESIZABLE)
 timer = pygame.time.Clock()
-death_counter = 4
+death_counter = 0
 
 pygame.display.set_caption("THE DEATH GAME")
 mixer.music.load('bg_music.wav')
